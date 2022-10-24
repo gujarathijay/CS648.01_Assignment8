@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Assignment 08</title>
-    <link href="styles/employees.css" rel="stylesheet">
+    <link href="style/employee.css" rel="stylesheet">
     <script src="js/employee-management.js"></script>
 </head>
 <body>
     <h2>The Employee Management Application</h2>
     <form id="regForm">
-        <fieldset>
             <legend>Add Employee</legend>
             <label for="name">Name:</label>
             <input type="text" id="name" value="" size="30">&nbsp; <span id="requireName"></span><br><br>
@@ -18,9 +17,9 @@
             <label for="extension">Extension:</label>
             <input type="text" id="extension" value="" size="30" maxlength="4">&nbsp; <span id="requireExt"></span><br><br>
             <input type="button" id="add" value="Add">
-        </fieldset>
+
     </form>
-    <fieldset>
+
     <legend id="qtyEmployee"></legend>
     <table id="table">
        <thead>
@@ -33,6 +32,6 @@
         </thead>
         <tbody id="tblBody"></tbody>
     </table>
-    </fieldset>
+
 </body>
 </html>
